@@ -333,6 +333,10 @@ function AnimationIntro() {
             </div>
           </div>
         </div>
+        <div className={styles.logoItemBox}>
+            <Image src="/coins/eye-logo.png" alt="eye-logo" width={50} height={50} />
+        </div>
+        
       </div>
   )
 }

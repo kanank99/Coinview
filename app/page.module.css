@@ -134,6 +134,25 @@
   z-index: 100;
 } 
 
+.logoItemBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+  margin-right: 24px;
+  background: linear-gradient(155.91deg, rgb(219, 223, 233) 21.92%, rgb(173, 191, 245) 77.49%);
+  box-shadow: 10px 10px 20px rgba(6, 6, 6, 1), -10px -10px 20px rgba(6, 6, 6, 1);
+  cursor: pointer;
+  z-index: 100;
+}
+
 .itemBox:hover {
   box-shadow: white 10px 10px 1px 0px inset,
 }
@@ -161,6 +180,38 @@
   /* background: linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%) text; */
 }
 
+.lightShadowDiv1 {
+  position: absolute;
+  transform: translateX(30px);
+  top: 170px;
+  left: -120px;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: #0ff; 
+  box-shadow: 0 0 180px 90px #5743cd;
+}
+
+.lightShadowDiv2 {
+  position: absolute;
+  transform: translateX(340px);
+  top: 310px;
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  background: #0ff; 
+  box-shadow: 0 0 180px 110px #5743cd;
+}
+
+@media (min-width: 548px) {
+  .lightShadowDiv1 {
+    display: none;
+  }
+  
+  .lightShadowDiv2 {
+    display: none;
+  }
+}
 
 @media (min-width: 1200px) {
   .main {

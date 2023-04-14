@@ -111,12 +111,6 @@
   animation: moveItems 26s linear infinite;
 }
 
-.rowWithItems5 {
-  display: flex;
-  height: 100%;
-  animation: moveItems 39s linear infinite;
-}
-
 
 .itemBox {
   display: flex;
@@ -190,6 +184,7 @@
   border-radius: 50%;
   background: #0ff; 
   box-shadow: 0 0 180px 90px #5743cd;
+  animation: lightShadow 8s linear infinite;
 }
 
 .lightShadowDiv2 {
@@ -201,9 +196,44 @@
   border-radius: 50%;
   background: #0ff; 
   box-shadow: 0 0 180px 110px #5743cd;
+  animation: lightShadow 8s linear infinite;
 }
 
 @media (min-width: 548px) {
+  .introAnimationContainer {
+    max-width: none;
+  }
+
+  .rowWithItems1 {
+    animation: moveItemsLg 18s linear infinite;
+  }
+  .rowWithItems2 {
+    animation: moveItemsLg 14s linear infinite;
+  }
+  .rowWithItems3 {
+    animation: moveItemsLg 28s linear infinite;
+  }
+  .rowWithItems4 {
+    animation: moveItemsLg 16s linear infinite;
+  }
+  
+  .itemBox {
+    width: 80px;
+    height: 80px;
+    margin-right: 32px;
+  }
+
+  .row {
+    height: 100px;
+  }
+
+  .lightShadowDiv2 {
+    left: 800px;
+    top: 400px;
+  }
+}
+
+@media (min-width: 1200px) {
   .lightShadowDiv1 {
     display: none;
   }
@@ -211,9 +241,6 @@
   .lightShadowDiv2 {
     display: none;
   }
-}
-
-@media (min-width: 1200px) {
   .main {
     max-width: 1200px;
   }
@@ -224,6 +251,7 @@
   }
 }
 
+
 @keyframes moveItems {
   0% {
     transform: translateX(0);
@@ -233,3 +261,24 @@
   }
 }
   
+
+@keyframes moveItemsLg {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-672px);
+  }
+}
+
+@keyframes lightShadow {
+  0% {
+    box-shadow: 0 0 180px 90px #5743cd;
+  }
+  50% {
+    box-shadow: 0 0 180px 120px #5743cd;
+  }
+ 100% {
+    box-shadow: 0 0 180px 90px #5743cd;
+  }
+}

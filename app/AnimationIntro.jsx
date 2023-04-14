@@ -8,328 +8,328 @@ function AnimationIntro() {
         <div className={styles.row}>
           <div className={styles.rowWithItems1}>
             <div className={styles.itemBox}>
-              <Image src="/coins/1.png" alt="btc-icon" width={35} height={35} />
+              <Image src="/coins1/1.svg" alt="btc-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/eth.png" alt="eth-icon" width={35} height={35} />
+              <Image src="/coins1/eth.svg" alt="eth-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/ada.png" alt="ada-icon" width={35} height={35} />
+              <Image src="/coins1/ada.svg" alt="ada-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/atom.png" alt="atom-icon" width={35} height={35} />
+              <Image src="/coins1/atom.svg" alt="atom-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/avax.png" alt="avax-icon" width={35} height={35} />
+              <Image src="/coins1/avax.svg" alt="avax-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/algo.png" alt="algo-icon" width={35} height={35} />
-            </div>
-          </div>
-          <div className={styles.rowWithItems1}>
-            <div className={styles.itemBox}>
-              <Image src="/coins/1.png" alt="btc-icon" width={35} height={35} />
-            </div>
-            <div className={styles.itemBox}>
-              <Image src="/coins/eth.png" alt="eth-icon" width={35} height={35} />
-            </div>
-            <div className={styles.itemBox}>
-              <Image src="/coins/ada.png" alt="ada-icon" width={35} height={35} />
-            </div>
-            <div className={styles.itemBox}>
-              <Image src="/coins/atom.png" alt="atom-icon" width={35} height={35} />
-            </div>
-            <div className={styles.itemBox}>
-              <Image src="/coins/avax.png" alt="avax-icon" width={35} height={35} />
-            </div>
-            <div className={styles.itemBox}>
-              <Image src="/coins/algo.png" alt="algo-icon" width={35} height={35} />
+              <Image src="/coins1/sol.svg" alt="sol-icon" width={35} height={35} />
             </div>
           </div>
           <div className={styles.rowWithItems1}>
             <div className={styles.itemBox}>
-              <Image src="/coins/1.png" alt="btc-icon" width={35} height={35} />
+              <Image src="/coins1/1.svg" alt="btc-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/eth.png" alt="eth-icon" width={35} height={35} />
+              <Image src="/coins1/eth.svg" alt="eth-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/ada.png" alt="ada-icon" width={35} height={35} />
+              <Image src="/coins1/ada.svg" alt="ada-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/atom.png" alt="atom-icon" width={35} height={35} />
+              <Image src="/coins1/atom.svg" alt="atom-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/avax.png" alt="avax-icon" width={35} height={35} />
+              <Image src="/coins1/avax.svg" alt="avax-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/algo.png" alt="algo-icon" width={35} height={35} />
+              <Image src="/coins1/sol.svg" alt="sol-icon" width={35} height={35} />
             </div>
           </div>
           <div className={styles.rowWithItems1}>
             <div className={styles.itemBox}>
-              <Image src="/coins/1.png" alt="btc-icon" width={35} height={35} />
+              <Image src="/coins1/1.svg" alt="btc-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/eth.png" alt="eth-icon" width={35} height={35} />
+              <Image src="/coins1/eth.svg" alt="eth-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/ada.png" alt="ada-icon" width={35} height={35} />
+              <Image src="/coins1/ada.svg" alt="ada-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/atom.png" alt="atom-icon" width={35} height={35} />
+              <Image src="/coins1/atom.svg" alt="atom-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/avax.png" alt="avax-icon" width={35} height={35} />
+              <Image src="/coins1/avax.svg" alt="avax-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/algo.png" alt="algo-icon" width={35} height={35} />
+              <Image src="/coins1/sol.svg" alt="sol-icon" width={35} height={35} />
+            </div>
+          </div>
+          <div className={styles.rowWithItems1}>
+            <div className={styles.itemBox}>
+              <Image src="/coins1/1.svg" alt="btc-icon" width={35} height={35} />
+            </div>
+            <div className={styles.itemBox}>
+              <Image src="/coins1/eth.svg" alt="eth-icon" width={35} height={35} />
+            </div>
+            <div className={styles.itemBox}>
+              <Image src="/coins1/ada.svg" alt="ada-icon" width={35} height={35} />
+            </div>
+            <div className={styles.itemBox}>
+              <Image src="/coins1/atom.svg" alt="atom-icon" width={35} height={35} />
+            </div>
+            <div className={styles.itemBox}>
+              <Image src="/coins1/avax.svg" alt="avax-icon" width={35} height={35} />
+            </div>
+            <div className={styles.itemBox}>
+              <Image src="/coins1/sol.svg" alt="sol-icon" width={35} height={35} />
             </div>
           </div>
         </div>
         <div className={styles.row}>
           <div className={styles.rowWithItems2}>
             <div className={styles.itemBox}>
-              <Image src="/coins/ape.png" alt="ape-icon" width={35} height={35} />
+              <Image src="/coins1/ape.svg" alt="ape-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/bch.png" alt="bch-icon" width={35} height={35} />
+              <Image src="/coins1/bch.svg" alt="bch-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/bnb.png" alt="bnb-icon" width={35} height={35} />
+              <Image src="/coins1/bnb.svg" alt="bnb-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/doge.png" alt="doge-icon" width={35} height={35} />
+              <Image src="/coins1/doge.svg" alt="doge-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/egld.png" alt="egld-icon" width={35} height={35} />
+              <Image src="/coins1/cspr.svg" alt="cspr-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/fil.png" alt="fil-icon" width={35} height={35} />
-            </div>
-          </div>
-          <div className={styles.rowWithItems2}>
-            <div className={styles.itemBox}>
-              <Image src="/coins/ape.png" alt="ape-icon" width={35} height={35} />
-            </div>
-            <div className={styles.itemBox}>
-              <Image src="/coins/bch.png" alt="bch-icon" width={35} height={35} />
-            </div>
-            <div className={styles.itemBox}>
-              <Image src="/coins/bnb.png" alt="bnb-icon" width={35} height={35} />
-            </div>
-            <div className={styles.itemBox}>
-              <Image src="/coins/doge.png" alt="doge-icon" width={35} height={35} />
-            </div>
-            <div className={styles.itemBox}>
-              <Image src="/coins/egld.png" alt="egld-icon" width={35} height={35} />
-            </div>
-            <div className={styles.itemBox}>
-              <Image src="/coins/fil.png" alt="fil-icon" width={35} height={35} />
+              <Image src="/coins1/fil.svg" alt="fil-icon" width={35} height={35} />
             </div>
           </div>
           <div className={styles.rowWithItems2}>
             <div className={styles.itemBox}>
-              <Image src="/coins/ape.png" alt="ape-icon" width={35} height={35} />
+              <Image src="/coins1/ape.svg" alt="ape-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/bch.png" alt="bch-icon" width={35} height={35} />
+              <Image src="/coins1/bch.svg" alt="bch-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/bnb.png" alt="bnb-icon" width={35} height={35} />
+              <Image src="/coins1/bnb.svg" alt="bnb-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/doge.png" alt="doge-icon" width={35} height={35} />
+              <Image src="/coins1/doge.svg" alt="doge-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/egld.png" alt="egld-icon" width={35} height={35} />
+              <Image src="/coins1/cspr.svg" alt="cspr-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/fil.png" alt="fil-icon" width={35} height={35} />
+              <Image src="/coins1/fil.svg" alt="fil-icon" width={35} height={35} />
             </div>
           </div>
           <div className={styles.rowWithItems2}>
             <div className={styles.itemBox}>
-              <Image src="/coins/ape.png" alt="ape-icon" width={35} height={35} />
+              <Image src="/coins1/ape.svg" alt="ape-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/bch.png" alt="bch-icon" width={35} height={35} />
+              <Image src="/coins1/bch.svg" alt="bch-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/bnb.png" alt="bnb-icon" width={35} height={35} />
+              <Image src="/coins1/bnb.svg" alt="bnb-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/doge.png" alt="doge-icon" width={35} height={35} />
+              <Image src="/coins1/doge.svg" alt="doge-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/egld.png" alt="egld-icon" width={35} height={35} />
+              <Image src="/coins1/cspr.svg" alt="cspr-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/fil.png" alt="fil-icon" width={35} height={35} />
+              <Image src="/coins1/fil.svg" alt="fil-icon" width={35} height={35} />
+            </div>
+          </div>
+          <div className={styles.rowWithItems2}>
+            <div className={styles.itemBox}>
+              <Image src="/coins1/ape.svg" alt="ape-icon" width={35} height={35} />
+            </div>
+            <div className={styles.itemBox}>
+              <Image src="/coins1/bch.svg" alt="bch-icon" width={35} height={35} />
+            </div>
+            <div className={styles.itemBox}>
+              <Image src="/coins1/bnb.svg" alt="bnb-icon" width={35} height={35} />
+            </div>
+            <div className={styles.itemBox}>
+              <Image src="/coins1/doge.svg" alt="doge-icon" width={35} height={35} />
+            </div>
+            <div className={styles.itemBox}>
+              <Image src="/coins1/cspr.svg" alt="cspr-icon" width={35} height={35} />
+            </div>
+            <div className={styles.itemBox}>
+              <Image src="/coins1/fil.svg" alt="fil-icon" width={35} height={35} />
             </div>
           </div>
         </div>
         <div className={styles.row}>
           <div className={styles.rowWithItems3}>
             <div className={styles.itemBox}>
-              <Image src="/coins/grt.png" alt="grt-icon" width={35} height={35} />
+              <Image src="/coins1/grt.svg" alt="grt-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/hbar.png" alt="hbar-icon" width={35} height={35} />
+              <Image src="/coins1/hbar.svg" alt="hbar-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/icp.png" alt="icp-icon" width={35} height={35} />
+              <Image src="/coins1/icp.svg" alt="icp-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/leo.png" alt="leo-icon" width={35} height={35} />
+              <Image src="/coins1/cro.svg" alt="cro-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/link.png" alt="link-icon" width={35} height={35} />
+              <Image src="/coins1/link.svg" alt="link-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/ltc.png" alt="ltc-icon" width={35} height={35} />
-            </div>
-          </div>
-          <div className={styles.rowWithItems3}>
-            <div className={styles.itemBox}>
-              <Image src="/coins/grt.png" alt="grt-icon" width={35} height={35} />
-            </div>
-            <div className={styles.itemBox}>
-              <Image src="/coins/hbar.png" alt="hbar-icon" width={35} height={35} />
-            </div>
-            <div className={styles.itemBox}>
-              <Image src="/coins/icp.png" alt="icp-icon" width={35} height={35} />
-            </div>
-            <div className={styles.itemBox}>
-              <Image src="/coins/leo.png" alt="leo-icon" width={35} height={35} />
-            </div>
-            <div className={styles.itemBox}>
-              <Image src="/coins/link.png" alt="link-icon" width={35} height={35} />
-            </div>
-            <div className={styles.itemBox}>
-              <Image src="/coins/ltc.png" alt="ltc-icon" width={35} height={35} />
+              <Image src="/coins1/ltc.svg" alt="ltc-icon" width={35} height={35} />
             </div>
           </div>
           <div className={styles.rowWithItems3}>
             <div className={styles.itemBox}>
-              <Image src="/coins/grt.png" alt="grt-icon" width={35} height={35} />
+              <Image src="/coins1/grt.svg" alt="grt-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/hbar.png" alt="hbar-icon" width={35} height={35} />
+              <Image src="/coins1/hbar.svg" alt="hbar-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/icp.png" alt="icp-icon" width={35} height={35} />
+              <Image src="/coins1/icp.svg" alt="icp-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/leo.png" alt="leo-icon" width={35} height={35} />
+              <Image src="/coins1/cro.svg" alt="cro-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/link.png" alt="link-icon" width={35} height={35} />
+              <Image src="/coins1/link.svg" alt="link-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/ltc.png" alt="ltc-icon" width={35} height={35} />
+              <Image src="/coins1/ltc.svg" alt="ltc-icon" width={35} height={35} />
             </div>
           </div>
           <div className={styles.rowWithItems3}>
             <div className={styles.itemBox}>
-              <Image src="/coins/grt.png" alt="grt-icon" width={35} height={35} />
+              <Image src="/coins1/grt.svg" alt="grt-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/hbar.png" alt="hbar-icon" width={35} height={35} />
+              <Image src="/coins1/hbar.svg" alt="hbar-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/icp.png" alt="icp-icon" width={35} height={35} />
+              <Image src="/coins1/icp.svg" alt="icp-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/leo.png" alt="leo-icon" width={35} height={35} />
+              <Image src="/coins1/cro.svg" alt="cro-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/link.png" alt="link-icon" width={35} height={35} />
+              <Image src="/coins1/link.svg" alt="link-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/ltc.png" alt="ltc-icon" width={35} height={35} />
+              <Image src="/coins1/ltc.svg" alt="ltc-icon" width={35} height={35} />
+            </div>
+          </div>
+          <div className={styles.rowWithItems3}>
+            <div className={styles.itemBox}>
+              <Image src="/coins1/grt.svg" alt="grt-icon" width={35} height={35} />
+            </div>
+            <div className={styles.itemBox}>
+              <Image src="/coins1/hbar.svg" alt="hbar-icon" width={35} height={35} />
+            </div>
+            <div className={styles.itemBox}>
+              <Image src="/coins1/icp.svg" alt="icp-icon" width={35} height={35} />
+            </div>
+            <div className={styles.itemBox}>
+              <Image src="/coins1/cro.svg" alt="cro-icon" width={35} height={35} />
+            </div>
+            <div className={styles.itemBox}>
+              <Image src="/coins1/link.svg" alt="link-icon" width={35} height={35} />
+            </div>
+            <div className={styles.itemBox}>
+              <Image src="/coins1/ltc.svg" alt="ltc-icon" width={35} height={35} />
             </div>
           </div>
         </div>
         <div className={styles.row}>
           <div className={styles.rowWithItems4}>
             <div className={styles.itemBox}>
-              <Image src="/coins/mana.png" alt="mana-icon" width={35} height={35} />
+              <Image src="/coins1/mana.svg" alt="mana-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/matic.png" alt="matic-icon" width={35} height={35} />
+              <Image src="/coins1/matic.svg" alt="matic-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/shib.png" alt="shib-icon" width={35} height={35} />
+              <Image src="/coins1/shib.svg" alt="shib-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/stx.png" alt="stx-icon" width={35} height={35} />
+              <Image src="/coins1/stx.svg" alt="stx-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/theta.png" alt="theta-icon" width={35} height={35} />
+              <Image src="/coins1/theta.svg" alt="theta-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/ton.png" alt="ton-icon" width={35} height={35} />
-            </div>
-          </div>
-          <div className={styles.rowWithItems4}>
-            <div className={styles.itemBox}>
-              <Image src="/coins/mana.png" alt="mana-icon" width={35} height={35} />
-            </div>
-            <div className={styles.itemBox}>
-              <Image src="/coins/matic.png" alt="matic-icon" width={35} height={35} />
-            </div>
-            <div className={styles.itemBox}>
-              <Image src="/coins/shib.png" alt="shib-icon" width={35} height={35} />
-            </div>
-            <div className={styles.itemBox}>
-              <Image src="/coins/stx.png" alt="stx-icon" width={35} height={35} />
-            </div>
-            <div className={styles.itemBox}>
-              <Image src="/coins/theta.png" alt="theta-icon" width={35} height={35} />
-            </div>
-            <div className={styles.itemBox}>
-              <Image src="/coins/ton.png" alt="ton-icon" width={35} height={35} />
+              <Image src="/coins1/xpr.svg" alt="xpr-icon" width={35} height={35} />
             </div>
           </div>
           <div className={styles.rowWithItems4}>
             <div className={styles.itemBox}>
-              <Image src="/coins/mana.png" alt="mana-icon" width={35} height={35} />
+              <Image src="/coins1/mana.svg" alt="mana-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/matic.png" alt="matic-icon" width={35} height={35} />
+              <Image src="/coins1/matic.svg" alt="matic-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/shib.png" alt="shib-icon" width={35} height={35} />
+              <Image src="/coins1/shib.svg" alt="shib-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/stx.png" alt="stx-icon" width={35} height={35} />
+              <Image src="/coins1/stx.svg" alt="stx-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/theta.png" alt="theta-icon" width={35} height={35} />
+              <Image src="/coins1/theta.svg" alt="theta-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/ton.png" alt="ton-icon" width={35} height={35} />
+              <Image src="/coins1/xpr.svg" alt="xpr-icon" width={35} height={35} />
             </div>
           </div>
           <div className={styles.rowWithItems4}>
             <div className={styles.itemBox}>
-              <Image src="/coins/mana.png" alt="mana-icon" width={35} height={35} />
+              <Image src="/coins1/mana.svg" alt="mana-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/matic.png" alt="matic-icon" width={35} height={35} />
+              <Image src="/coins1/matic.svg" alt="matic-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/shib.png" alt="shib-icon" width={35} height={35} />
+              <Image src="/coins1/shib.svg" alt="shib-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/stx.png" alt="stx-icon" width={35} height={35} />
+              <Image src="/coins1/stx.svg" alt="stx-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/theta.png" alt="theta-icon" width={35} height={35} />
+              <Image src="/coins1/theta.svg" alt="theta-icon" width={35} height={35} />
             </div>
             <div className={styles.itemBox}>
-              <Image src="/coins/ton.png" alt="ton-icon" width={35} height={35} />
+              <Image src="/coins1/xpr.svg" alt="xpr-icon" width={35} height={35} />
+            </div>
+          </div>
+          <div className={styles.rowWithItems4}>
+            <div className={styles.itemBox}>
+              <Image src="/coins1/mana.svg" alt="mana-icon" width={35} height={35} />
+            </div>
+            <div className={styles.itemBox}>
+              <Image src="/coins1/matic.svg" alt="matic-icon" width={35} height={35} />
+            </div>
+            <div className={styles.itemBox}>
+              <Image src="/coins1/shib.svg" alt="shib-icon" width={35} height={35} />
+            </div>
+            <div className={styles.itemBox}>
+              <Image src="/coins1/stx.svg" alt="stx-icon" width={35} height={35} />
+            </div>
+            <div className={styles.itemBox}>
+              <Image src="/coins1/theta.svg" alt="theta-icon" width={35} height={35} />
+            </div>
+            <div className={styles.itemBox}>
+              <Image src="/coins1/xpr.svg" alt="xpr-icon" width={35} height={35} />
             </div>
           </div>
         </div>

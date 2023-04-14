@@ -2,13 +2,22 @@ import React from 'react'
 import Image from 'next/image'
 import styles from './page.module.css'
 
-function AnimationIntro() {
+function AnimationIntro({ coins }) {
+  
+  let btcChange;
+
+  btcChange = coins.find(coin => coin.symbol === 'btc').price_change_percentage_24h.toFixed(2)
+
   return (
+  <>
     <div className={styles.introAnimationContainer}>
         <div className={styles.row}>
           <div className={styles.rowWithItems1}>
             <div className={styles.itemBox}>
-              <Image src="/coins1/1.svg" alt="btc-icon" width={35} height={35} />
+              <div className='imgWithChange'>
+                <Image className='coinImg' src="/coins1/1.svg" alt="btc-icon" width={35} height={35} />
+                <p className='coinPriceChangeText'>{btcChange}%</p>
+              </div>
             </div>
             <div className={styles.itemBox}>
               <Image src="/coins1/eth.svg" alt="eth-icon" width={35} height={35} />
@@ -28,7 +37,8 @@ function AnimationIntro() {
           </div>
           <div className={styles.rowWithItems1}>
             <div className={styles.itemBox}>
-              <Image src="/coins1/1.svg" alt="btc-icon" width={35} height={35} />
+              <Image className='coinImg' src="/coins1/1.svg" alt="btc-icon" width={35} height={35} />
+              <p className='coinPriceChangeText'>{btcChange}%</p>
             </div>
             <div className={styles.itemBox}>
               <Image src="/coins1/eth.svg" alt="eth-icon" width={35} height={35} />
@@ -48,7 +58,8 @@ function AnimationIntro() {
           </div>
           <div className={styles.rowWithItems1}>
             <div className={styles.itemBox}>
-              <Image src="/coins1/1.svg" alt="btc-icon" width={35} height={35} />
+              <Image className='coinImg' src="/coins1/1.svg" alt="btc-icon" width={35} height={35} />
+              <p className='coinPriceChangeText'>{btcChange}%</p>
             </div>
             <div className={styles.itemBox}>
               <Image src="/coins1/eth.svg" alt="eth-icon" width={35} height={35} />
@@ -68,7 +79,8 @@ function AnimationIntro() {
           </div>
           <div className={styles.rowWithItems1}>
             <div className={styles.itemBox}>
-              <Image src="/coins1/1.svg" alt="btc-icon" width={35} height={35} />
+              <Image className='coinImg' src="/coins1/1.svg" alt="btc-icon" width={35} height={35} />
+              <p className='coinPriceChangeText'>{btcChange}%</p>
             </div>
             <div className={styles.itemBox}>
               <Image src="/coins1/eth.svg" alt="eth-icon" width={35} height={35} />
@@ -335,9 +347,11 @@ function AnimationIntro() {
         </div>
         <div className={styles.logoItemBox}>
             <Image src="/coins/eye-logo.png" alt="eye-logo" width={50} height={50} />
+            <div className={styles.lightShadowDivLogo}></div>
         </div>
         
       </div>
+  </>
   )
 }
 

@@ -119,12 +119,10 @@
   align-items: center;
   width: 60px;
   height: 100%;
-  
   border-radius: 15px;
   margin-right: 24px;
   background: linear-gradient(155.91deg, rgb(24, 25, 28) 21.92%, rgb(33, 34, 37) 77.49%);
   box-shadow: rgba(255, 255, 255, 0.25) 0px 1px 1px 0px inset;
-  cursor: pointer;
   z-index: 100;
 } 
 
@@ -143,35 +141,35 @@
   margin-right: 24px;
   background: linear-gradient(155.91deg, rgb(219, 223, 233) 21.92%, rgb(173, 191, 245) 77.49%);
   box-shadow: 10px 10px 20px rgba(6, 6, 6, 1), -10px -10px 20px rgba(6, 6, 6, 1);
-  cursor: pointer;
   z-index: 100;
 }
 
-.itemBox:hover {
-  box-shadow: white 10px 10px 1px 0px inset,
-}
-
 .title {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 700;
-  margin: 0;
   padding: 0;
-  color: #fff;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   margin-top: 70px;
+  padding: 0 20px;
   width: 100dvw;
 }
 
 .logoTitle {
   letter-spacing: 1.3px;
-  font-size: 2rem;
-  font-weight: 400;
+  font-size: 3rem;
+  font-weight: 300;
   background: -webkit-linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   /* background: linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%) text; */
+}
+
+.titleTextInHero {
+  background: -webkit-linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .lightShadowDiv1 {
@@ -223,6 +221,17 @@
     margin-right: 32px;
   }
 
+  .coinImg {
+    width: 40px;
+    height: 40px;
+  }
+
+  .coinPriceChangeText {
+    font-size: 1.2rem;
+    display: block;
+  }
+
+
   .row {
     height: 100px;
   }
@@ -230,6 +239,15 @@
   .lightShadowDiv2 {
     left: 800px;
     top: 400px;
+  }
+
+  .logoItemBox {
+    box-shadow: 0 0 100px 80px #5743cd;
+    animation: logoLightShadow 8s linear infinite;
+  }
+
+  .title {
+    font-size: 3rem;
   }
 }
 
@@ -280,5 +298,17 @@
   }
  100% {
     box-shadow: 0 0 180px 90px #5743cd;
+  }
+}
+
+@keyframes logoLightShadow {
+  0% {
+    box-shadow: 0 0 80px 80px #5743cd;
+  }
+  50% {
+    box-shadow: 0 0 100px 100px #5743cd;
+  }
+ 100% {
+    box-shadow: 0 0 80px 80px #5743cd;
   }
 }

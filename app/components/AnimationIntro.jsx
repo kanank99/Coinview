@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import styles from './page.module.css'
+import styles from '../page.module.css'
 
 function AnimationIntro({ coins }) {
   

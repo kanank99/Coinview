@@ -144,6 +144,24 @@
   z-index: 100;
 }
 
+.logoItemBoxSplash {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+  margin-right: 24px;
+  background: linear-gradient(155.91deg, rgb(219, 223, 233) 21.92%, rgb(173, 191, 245) 77.49%);
+  box-shadow: 10px 10px 20px rgba(6, 6, 6, 1), -10px -10px 20px rgba(6, 6, 6, 1);
+  z-index: 100;
+}
+
 .title {
   font-size: 2rem;
   font-weight: 700;
@@ -246,6 +264,11 @@
     animation: logoLightShadow 8s linear infinite;
   }
 
+  .logoItemBoxSplash {
+    box-shadow: 0 0 100px 80px #5743cd;
+    animation: logoLightShadowSplash 5s linear infinite;
+  }
+
   .title {
     font-size: 3rem;
   }
@@ -310,5 +333,14 @@
   }
  100% {
     box-shadow: 0 0 80px 80px #5743cd;
+  }
+}
+
+@keyframes logoLightShadowSplash {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }

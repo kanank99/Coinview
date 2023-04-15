@@ -1,0 +1,66 @@
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.listContainer {
+    width: 100%;
+    height: 100px;
+    display:flex;
+}
+
+.headerText {
+    letter-spacing: 0.1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.trendingListContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    gap: 10px;
+}
+
+.trendingCoin {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    border-radius: 15px;
+    padding: 20px;
+    background: linear-gradient(92.88deg, rgb(69, 94, 181, 0.5) 1%, rgb(86, 67, 204, 1) 50%, rgb(103, 63, 215, 0.5) 100%);
+}
+
+
+
+.nameAndImgAndRank {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+}
+
+.trendingCoinImg {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.coinBtcPrice {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.trendingCoinInfo {
+    font-size: 1.2rem;
+}
+
+@media (min-width: 548px) {
+
+}

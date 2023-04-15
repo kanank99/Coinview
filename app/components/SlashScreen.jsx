@@ -13,7 +13,7 @@ function SlashScreen({ finishLoading }) {
     return () => clearTimeout(timeout)
     }, [])
   return (
-    <div isMounted={isMounted}>
+    <div>
         <div className={styles.logoItemBoxSplash}>
             <Image src="/coins/eye-logo.png" alt="eye-logo" width={50} height={50} />
             <div className={styles.lightShadowDivLogo}></div>

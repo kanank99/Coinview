@@ -2,7 +2,6 @@
 
 import './globals.css'
 import { useState, useEffect } from 'react'
-import { Dongle } from 'next/font/google'
 import Header from './components/Header'
 import SlashScreen from './components/SlashScreen'
 import { usePathname } from 'next/navigation'
@@ -12,12 +11,6 @@ import { usePathname } from 'next/navigation'
 //   title: 'Coinview',
 //   description: 'Keep a watchful eye on the world of cryptocurrencies with Coinview.',
 // }
-
- const dongle = Dongle({
-  subsets: ['latin'],
-  weight: ['300','400', '700'],
- })
-
 
 export default function RootLayout({ children }) {
   const pathname = usePathname()
@@ -29,7 +22,7 @@ export default function RootLayout({ children }) {
     }, [isLoading])
 
   return (
-    <html lang="en" className={dongle.className}>
+    <html lang="en">
       <body>
           {isLoading && isHome ? (
           <SlashScreen  finishLoading={() => setIsLoading(false)} /> 

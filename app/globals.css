@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap');
+
 :root {
   --gradientColorZero: #6c1e6d;
 
@@ -10,7 +12,7 @@ body {
   background: rgb( 6, 6, 6);
   display: flex;
   justify-content: center;
-  
+  font-family: 'Dongle', sans-serif;
 }
 
 *, ::before, ::after {

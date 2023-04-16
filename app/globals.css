@@ -28,6 +28,7 @@ a {
 
   .header {
     width: 50%;
+    z-index: 10;
   }
 
 /* 

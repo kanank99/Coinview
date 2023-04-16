@@ -1,6 +1,7 @@
 .container {
     width: 100%;
     height: 100%;
+    /* overflow-x: scroll; */
 }
 
 .listContainer {
@@ -11,18 +12,28 @@
 
 .headerText {
     letter-spacing: 0.1rem;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
     padding-left: 20px;
 }
 
+.animatedContainer {
+    overflow: hidden;
+}
+
 .trendingListContainer {
-    width: 100%;
+    width: 1750px;
     height: 100%;
     display: flex;
-    flex-direction: column;
-    padding: 0 10px;
-    gap: 10px;
+    flex-direction: row;
+    /* padding: 0 10px; */
+    gap: 20px;
+    padding: 0 20px;
+    animation: slideInFromLeft 40s linear infinite;
+}
+
+.trendingListContainer:hover {
+    animation-play-state: paused;
 }
 
 .trendingCoin {
@@ -31,10 +42,10 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 90px;
+    height: 120px;
     border-radius: 15px;
     padding: 20px;
-    background: linear-gradient(92.88deg, rgb(69, 94, 181, 0.5) 1%, rgb(86, 67, 204, 1) 50%, rgb(103, 63, 215, 0.5) 100%);
+    background: linear-gradient(92.88deg, rgb(69, 94, 181, 0.4) 1%, rgb(86, 67, 204, 0.8) 50%, rgb(103, 63, 215, 0.4) 100%);
 }
 
 
@@ -42,13 +53,21 @@
 .nameAndImgAndRank {
     display: flex;
     flex-direction: row;
-    gap: 4px;
+    gap: 0px;
     align-items: center;
 }
 
+.nameAndRank {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0px;
+}
+
 .trendingCoinImg {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     margin-right: 10px;
 }
 
@@ -57,10 +76,70 @@
     font-weight: 300;
 }
 
-.trendingCoinInfo {
+
+.coinName {
+    font-size: 1.8rem;
+}
+
+.coinRank {
     font-size: 1.2rem;
 }
 
-@media (min-width: 548px) {
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
 
+@media (min-width: 1200px) {
+
+    .scroll {
+        display: none;
+    }
+
+    /* .container {
+        overflow-x: scroll;
+    } */
+
+    .trendingListContainer {
+        width: 2200px;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        gap: 15px;
+    }
+
+    .trendingCoin {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 75px;
+        border-radius: 15px;
+        padding: 20px;
+    }
+
+    .trendingCoinImg {
+        width: 56px;
+        height: 56px;
+    }
+
+    .coinName {
+        /* font-size: 1.8rem; */
+        margin: 0;
+    }
+
+    .coinBtcPrice {
+        display: none;
+    }
+
+ 
 }

@@ -183,17 +183,19 @@
   margin-top: 70px;
   padding: 0 20px;
   width: 100dvw;
+  -webkit-text-stroke: 0.7px rgb(103, 63, 215);
 }
 
 .logoTitle {
   letter-spacing: 1.3px;
-  font-size: 3rem;
-  font-weight: 300;
+  font-size: 3.5rem;
+  font-weight: 700;
   background: -webkit-linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  /* background: linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%) text; */
+  z-index: 100;
+  -webkit-text-stroke: 0.7px white;
 }
 
 .titleTextInHero {
@@ -201,6 +203,7 @@
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.7px white;
 }
 
 .lightShadowDiv1 {
@@ -307,13 +310,16 @@
 
   .logoItemBoxSplash {
     box-shadow: 0 0 100px 80px #5743cd;
-    animation: logoLightShadowSplash 5s linear infinite;
+    animation: logoLightShadowSplash 2s linear infinite;
   }
 
   .title {
     font-size: 3rem;
+    max-width: 1200px;
   }
 }
+
+
 
 @media (min-width: 1200px) {
   .lightShadowDiv1 {
@@ -366,13 +372,19 @@
 
 @keyframes logoLightShadow {
   0% {
-    box-shadow: 0 0 80px 80px #5743cd;
+    box-shadow: 0 0 50px 50px rgba(193, 19, 19, 0.65);
   }
-  50% {
-    box-shadow: 0 0 100px 100px #5743cd;
+  25% {
+    box-shadow: 0 0 80px 80px #5743cd99;
   }
- 100% {
-    box-shadow: 0 0 80px 80px #5743cd;
+ 50% {
+    box-shadow: 0 0 50px 50px rgb(5, 156, 5, 0.65);
+  }
+  75% {
+      box-shadow: 0 0 80px 80px #5743cd99;
+    }
+  100% {
+    box-shadow: 0 0 50px 50px rgba(193, 19, 19, 0.65);
   }
 }
 

@@ -9,6 +9,7 @@ function Header() {
             <h3 className={styles.logoTitle}>Coinview</h3>
             <p>Search</p>
         </div>
+        <div className={styles.headerBorder}></div>
     </header>
   )
 }

@@ -1,0 +1,14 @@
+.container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.20);
+}
+
+.headerText {
+    letter-spacing: 0.1rem;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-left: 20px;
+}

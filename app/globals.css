@@ -5,11 +5,13 @@
 
 }
 
+/* #171616
+    161414 */
 
 body {
   margin: 0;
   padding: 0;
-  background: rgb( 6, 6, 6);
+  background: #161414;
   display: flex;
   justify-content: center;
   font-family: 'Dongle', sans-serif;

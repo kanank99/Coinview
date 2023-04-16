@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 60px;
+    width: 100%; */
+}
+
+.categoryDiv {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.globalDataTextTitle {
+    font-size: 1.8rem;
+    margin: 0;
+    color: white;
+}
+
+.globalDataTextData {
+    font-size: 1.8rem;
+    margin: 0;
+    color: white;
+    font-weight: 300;
+}
+
+@media (max-width: 800px) {
+    .container {
+        overflow-x: scroll;
+        gap: 30px;
+        padding: 0 20px;
+    }
+}

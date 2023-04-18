@@ -724,7 +724,7 @@ function AnimationIntro({ coins }) {
           </div>
         </div>
         <div className={styles.logoItemBox}>
-            <Image src="/coins/eye-logo.png" alt="eye-logo" width={50} height={50} />
+            <Image src="/coins/eye-logo.png" alt="eye-logo" width={50} height={50} priority />
             <div className={styles.lightShadowDivLogo}></div>
         </div>
         

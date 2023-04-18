@@ -7,6 +7,7 @@ async function Trending({ coins }) {
     return await res.json() 
   }
   const trendingCoins = await getTrendingCoins()
+  console.log(trendingCoins.coins)
   return (
     <div className={styles.container}>
         <div className={styles.header}>

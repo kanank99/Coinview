@@ -318,8 +318,8 @@
   }
 
   .logoItemBoxSplash {
-    box-shadow: 0 0 100px 80px #5743cd;
-    animation: logoLightShadowSplash 2s linear infinite;
+    /* box-shadow: 0 0 100px 80px #5743cd; */
+    animation: logoLightShadowSplash 2s ease-in-out infinite;
   }
 
   .title {
@@ -399,9 +399,23 @@
 
 @keyframes logoLightShadowSplash {
   0% {
-    transform: rotate(0deg);
+    transform: scale(1) rotate(0deg);
+    border-radius: 0;
+  }
+  20% {
+    transform: scale(1.4) rotate(0deg);
+    border-radius: 0;
+  }
+  50% {
+    transform: scale(1.4) rotate(180deg);
+    border-radius: 50%;
+  }
+  80% {
+    transform: scale(1) rotate(180deg);
+    border-radius: 50%;
   }
   100% {
-    transform: rotate(360deg);
+    transform: scale(1) rotate(0deg);
+    border-radius: 0;
   }
 }

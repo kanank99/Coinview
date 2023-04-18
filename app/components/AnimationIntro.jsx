@@ -1,8 +1,14 @@
+// 'use client'
+
 import React from 'react'
 import Image from 'next/image'
 import styles from '../page.module.css'
+import useCoins from './CoinData'
 
-function AnimationIntro({ coins }) {
+async function AnimationIntro() {
+
+  const coins = await useCoins()
+  console.log('this is coins: ' + coins)
   
   let btcChange;
   let btcColor;

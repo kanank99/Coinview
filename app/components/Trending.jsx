@@ -1,13 +1,15 @@
+// "use client"
+
 import React from 'react'
 import styles from '../styles/trending.module.css'
 
-async function Trending({ coins }) {
+async function Trending() {
   async function getTrendingCoins() {
-    const res = await fetch('https://api.coingecko.com/api/v3/search/trending')
+    const res = await fetch('https://api.coingecko.com/api/v3/search/trending', { cache: 'no-store' })
     return await res.json() 
   }
   const trendingCoins = await getTrendingCoins()
-  console.log(trendingCoins.coins)
+//   console.log(trendingCoins.coins)
   return (
     <div className={styles.container}>
         <div className={styles.header}>

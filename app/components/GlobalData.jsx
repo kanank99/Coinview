@@ -1,9 +1,11 @@
+// "use client"
+
 import React from 'react'
 import styles from '../styles/globaldata.module.css'
 
  async function GlobalData() {
     async function getGlobalData() {
-        const res = await fetch('https://api.coingecko.com/api/v3/global')
+        const res = await fetch('https://api.coingecko.com/api/v3/global', { cache: 'no-store' })
         return await res.json() 
       }
     const globalData = await getGlobalData()

@@ -13,7 +13,6 @@ export default function Home() {
           </h1>  
           <Trending /> 
           <CoinList />
-          <div style={{height: 2000}}></div> 
         </main>
         <div className={styles.lightShadowDiv1}></div>
         <div className={styles.lightShadowDiv2}></div>

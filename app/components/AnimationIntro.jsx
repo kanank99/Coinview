@@ -8,7 +8,6 @@ import useCoins from './CoinData'
 async function AnimationIntro() {
 
   const coins = await useCoins()
-  console.log('this is coins: ' + coins)
   
   let btcChange;
   let btcColor;

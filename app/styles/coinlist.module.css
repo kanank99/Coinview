@@ -12,3 +12,115 @@
     font-weight: bold;
     padding-left: 20px;
 }
+
+.coinlist {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1.5px solid rgba(255, 255, 255, 0.40);
+    border-radius: 10px;
+}
+
+.coinlistHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.20);
+}
+
+.coinlistHeader > div {
+    width: 100%;
+    text-align: center;
+    border-left: 1.5px solid rgba(255, 255, 255, 0.20);
+    font-size: 2rem;
+    flex: 1;
+}
+
+.coinlistHeader > div:first-child {
+    border-left: none;
+    flex: 0.5;
+}
+
+.coinlistHeader > div:nth-child(2) {
+    text-align: left;
+    padding-left: 25px;
+}
+
+.coinlistCoin {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.20);
+}
+
+.coinlistCoin > div {
+    width: 100%;
+    text-align: center;
+    font-size: 1.3rem;
+    flex: 1;
+}
+
+.coinlistCoin > div:first-child {
+    flex: 0.5;
+}
+
+.coinlistCoin:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+}
+
+.coinlistCoinId {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.coinlistCoinImg {
+    width: 30px;
+    height: 30px;
+}
+
+.NameAndSymbol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+}
+
+.coinlistSymbol {
+    color: rgba(255, 255, 255, 0.80);
+    font-weight: 300;
+}
+
+@media (max-width: 1200px) {
+    .coinlist {
+        border: none;
+        border-radius: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .coinlistCoinId {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .NameAndSymbol {
+        text-align: center;
+    }
+}
+
+
+/* .coinlistNameText {
+    text-align: center;
+}
+
+.coinlistSymbol {
+    text-align: center;
+} */
+

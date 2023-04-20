@@ -1,0 +1,29 @@
+
+  .inputSearch{
+    height: 50px;
+    width: 50px;
+    border-style: none;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    outline: none;
+    border-radius: 25px;
+    transition: all .5s ease-in-out;
+    background: linear-gradient(92.88deg, rgb(69, 94, 181, 0.3) 1%, rgb(86, 67, 204, 0.8) 50%, rgb(103, 63, 215, 0.4) 100%);
+    padding-right: 40px;
+    color:#fff;
+  }
+  .inputSearch::placeholder{
+    color:rgba(255,255,255,.5);
+    font-size: 8px;
+    letter-spacing: 2px;
+    font-weight: 100;
+  }
+
+  .inputSearch:focus{
+    width: 100px;
+    border-radius: 0px;
+    background: transparent;
+    border-bottom:1px solid rgba(255,255,255,.5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+  }

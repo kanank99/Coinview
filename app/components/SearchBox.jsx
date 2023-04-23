@@ -12,7 +12,7 @@ function SearchBox() {
 
     const handleKeyDown = (event) => {
         if (event.key === 'Enter') {
-          router.push('/coinPage/[id]', `/coinPage/${inputRef.current.value}`)
+          router.push(`/coinPage/${inputRef.current.value}`)
         }
       };
 

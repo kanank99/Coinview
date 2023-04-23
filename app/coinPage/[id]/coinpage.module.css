@@ -1,0 +1,22 @@
+.container {
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.containerContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 55%;
+    background: linear-gradient(92.88deg, rgb(69, 94, 181, 0.4) 1%, rgb(86, 67, 204, 0.8) 50%, rgb(103, 63, 215, 0.4) 100%);
+    border-radius: 10px;
+}
+
+@media (min-width: 548px) {
+    .container {
+        width: 50%;
+    }
+}

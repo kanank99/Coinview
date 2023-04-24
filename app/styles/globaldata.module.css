@@ -23,8 +23,12 @@
 .globalDataTextData {
     font-size: 1.8rem;
     margin: 0;
-    color: white;
     font-weight: 300;
+    background: -webkit-linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 6px rgb(86, 67, 204);
 }
 
 @media (max-width: 800px) {

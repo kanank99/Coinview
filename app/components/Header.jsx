@@ -7,7 +7,6 @@ function Header() {
   return (
     <header className={styles.header}>
         <div className={styles.headerContent}>
-            <p>dropdown</p>
             <Link href="/">
               <h3 className={styles.logoTitle}>Coinview</h3>
             </Link>

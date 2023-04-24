@@ -17,8 +17,15 @@ function SearchBox() {
       };
 
   return (
-        <input ref={inputRef} type="text" className={styles.inputSearch} placeholder="eg. xrp" onKeyDown={handleKeyDown}/>
+        
+          <input ref={inputRef} type="text" className={styles.inputSearch} placeholder="e.g. ETH" onKeyDown={handleKeyDown}/>
+        
   )
+
+{/* <form>
+	<input type="search" placeholder="Search">
+</form> */}
+
 }
 
 export default SearchBox

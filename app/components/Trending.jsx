@@ -1,6 +1,7 @@
 // "use client"
 
 import React from 'react'
+import Link from 'next/link'
 import styles from '../styles/trending.module.css'
 
 async function Trending() {
@@ -18,15 +19,17 @@ async function Trending() {
         <div className={styles.animatedContainer}>
             <div className={styles.trendingListContainer}>
                 {trendingCoins.coins.map((coin) => (
-                    <div className={styles.trendingCoin} key={coin.item.id}>
-                        <div className={styles.nameAndImgAndRank}>
-                            <img src={coin.item.large} alt={coin.item.name} className={styles.trendingCoinImg}/>
-                            <div className={styles.nameAndRank}>
-                                <h2 className={styles.coinName}>{coin.item.name}</h2>
-                                <div className={styles.coinRank} >Rank: #{coin.item.market_cap_rank}</div>
+                    <Link href={`/coinPage/${coin.item.symbol}`} key={coin.item.id}>
+                        <div className={styles.trendingCoin}>
+                            <div className={styles.nameAndImgAndRank}>
+                                <img src={coin.item.large} alt={coin.item.name} className={styles.trendingCoinImg}/>
+                                <div className={styles.nameAndRank}>
+                                    <h2 className={styles.coinName}>{coin.item.name}</h2>
+                                    <div className={styles.coinRank} >Rank: #{coin.item.market_cap_rank}</div>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </Link>
                 ))}
             </div>
         </div>

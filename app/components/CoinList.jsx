@@ -1,6 +1,7 @@
 
 import React from 'react'
 import GlobalData from './GlobalData'
+import Link from 'next/link'
 import styles from '../styles/coinlist.module.css'
 
 async function CoinList() {
@@ -30,7 +31,8 @@ async function CoinList() {
                     <div className={styles.coinlistMarketcap}>Market Cap</div>
                 </div>
                 {topCoins.map((coin) => (
-                    <div className={styles.coinlistCoin} key={coin.id}>
+                  <Link href={`/coinPage/${coin.symbol}`} key={coin.id}>
+                    <div className={styles.coinlistCoin}>
                         <div className={styles.coinlistRank}>{coin.market_cap_rank}</div>
                         <div className={styles.coinlistCoinId}>
                             <img src={coin.image} alt={coin.name} className={styles.coinlistCoinImg}/>
@@ -44,7 +46,8 @@ async function CoinList() {
                         <div className={styles.coinlistChange} style={coin.price_change_percentage_24h > 0 ? {color: '#00ff00'} : {color: '#ff0000'}}>{coin.price_change_percentage_24h.toFixed(2)}%</div>
                         <div className={styles.coinlistMarketcap}>${coin.market_cap.toLocaleString()}</div>
                     </div>
-                    ))}
+                  </Link>
+                  ))}
             </div>
         </div>
     </div>

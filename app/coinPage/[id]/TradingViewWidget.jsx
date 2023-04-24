@@ -3,7 +3,7 @@
 // TradingViewWidget.jsx
 import React, { useEffect, useRef, memo } from 'react';
 
-function TradingViewWidget() {
+function TradingViewWidget(props) {
   const contariner = useRef();
 
   useEffect(
@@ -16,15 +16,15 @@ function TradingViewWidget() {
         {
           "symbols": [
             [
-              "CRYPTO:DESOUSD|1D"
+              "CRYPTO:${props.coin}USD|1M"
             ]
           ],
           "chartOnly": false,
-          "width": 1000,
+          "width": "100%",
           "height": 500,
           "locale": "en",
           "colorTheme": "dark",
-          "autosize": false,
+          "autosize": true,
           "showVolume": false,
           "showMA": false,
           "hideDateRanges": false,
@@ -38,6 +38,8 @@ function TradingViewWidget() {
           "valuesTracking": "1",
           "changeMode": "price-and-percent",
           "chartType": "line",
+          "gridLineColor": "rgba(240, 243, 250, 0)",
+          "backgroundColor": "rgba(19, 23, 34, 0)",
           "maLineColor": "#2962FF",
           "maLineWidth": 1,
           "maLength": 9,
@@ -52,9 +54,8 @@ function TradingViewWidget() {
   );
 
   return (
-    <div className="tradingview-widget-container" ref={contariner}>
+    <div className="tradingview-widget-container" style={{ height: '60%' }} ref={contariner} >
       <div className="tradingview-widget-container__widget"></div>
-      <div className="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/DESOUSD/?exchange=CRYPTO" rel="noopener" target="_blank"><span className="blue-text">DESOUSD rates</span></a> by TradingView</div>
     </div>
   );
 }

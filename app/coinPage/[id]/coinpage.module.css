@@ -13,6 +13,12 @@
     background: linear-gradient(92.88deg, rgb(69, 94, 181, 0.4) 1%, rgb(86, 67, 204, 0.8) 50%, rgb(103, 63, 215, 0.4) 100%);
     border-radius: 10px;
 } */
+    .calculator {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
 
 @media (min-width: 548px) {
     .container {

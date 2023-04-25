@@ -31,7 +31,7 @@ async function CoinList() {
                     <div className={styles.coinlistMarketcap}>Market Cap</div>
                 </div>
                 {topCoins.map((coin) => (
-                  <Link href={{pathname: `/coinPage/${coin.symbol}`, query: { rank: coin.market_cap_rank }}} key={coin.id}>
+                  <Link href={{pathname: `/coinPage/${coin.symbol}`, query: { name: coin.id }}} key={coin.id}>
                     <div className={styles.coinlistCoin}>
                         <div className={styles.coinlistRank}>{coin.market_cap_rank}</div>
                         <div className={styles.coinlistCoinId}>

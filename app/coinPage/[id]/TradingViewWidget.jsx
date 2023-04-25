@@ -21,7 +21,7 @@ function TradingViewWidget(props) {
           ],
           "chartOnly": false,
           "width": "100%",
-          "height": 500,
+          "height": 650,
           "locale": "en",
           "colorTheme": "dark",
           "autosize": true,

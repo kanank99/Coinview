@@ -1,5 +1,4 @@
-'use client'
-// make this SSR by moving useSearchParams to another component where it will be used
+import { serialize } from 'cookie';
 import styles from './coinpage.module.css'
 import CoinStatsCalculatorWidget from './CoinStatsCalculatorWidget'
 import TradingViewWidget from './TradingViewWidget'

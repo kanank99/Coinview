@@ -5,7 +5,7 @@ import React, { useEffect, useRef, memo } from 'react';
 import { useSearchParams } from 'next/navigation';
 import styles from './coinpage.module.css';
 
-function CoinStatsCalculatorWidget(props) {
+function CoinStatsCalculatorWidget() {
 
     const container = useRef();
 
@@ -19,7 +19,7 @@ function CoinStatsCalculatorWidget(props) {
 
         const coinStatsElement = document.createElement("coin-stats-calculator-widget");
         coinStatsElement.setAttribute("type", "invest");
-        coinStatsElement.setAttribute("per-coin-price", "2");
+        coinStatsElement.setAttribute("per-coin-price", "1");
         coinStatsElement.setAttribute("invest-amount", "1000");
         coinStatsElement.setAttribute("coin-id", `${name}`);
         coinStatsElement.setAttribute("locale", "en");

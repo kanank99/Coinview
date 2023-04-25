@@ -1,4 +1,3 @@
-import { serialize } from 'cookie';
 import styles from './coinpage.module.css'
 import CoinStatsCalculatorWidget from './CoinStatsCalculatorWidget'
 import TradingViewWidget from './TradingViewWidget'

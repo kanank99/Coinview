@@ -5,17 +5,17 @@ import CoinList from './components/CoinList'
 
 export default function Home() {
   return (
-      <>
-        <main className={styles.main}>    
-          <AnimationIntro />
-          <h1 className={styles.title}>
-            Keep a watchful eye on the world of cryptocurrencies with <span className={styles.titleTextInHero}>Coinview</span>.
-          </h1>  
-          <Trending /> 
-          <CoinList />
-        </main>
-        <div className={styles.lightShadowDiv1}></div>
-        <div className={styles.lightShadowDiv2}></div>
-      </>
+    <>
+      <main className={styles.main}>
+        <AnimationIntro />
+        <h1 className={styles.title}>
+          Keep a watchful eye on the world of cryptocurrencies with <span className={styles.titleTextInHero}>Coinview</span>.
+        </h1>
+        <Trending />
+        <CoinList />
+      </main>
+      <div className={styles.lightShadowDiv1}></div>
+      <div className={styles.lightShadowDiv2}></div>
+    </>
   )
 }

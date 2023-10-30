@@ -4,11 +4,13 @@ import TradingViewWidget from './TradingViewWidget'
 
 export default async function Page({ params }) {
 
-    return <div className={styles.container}>
-        <div className={styles.containerContent}>
-            <TradingViewWidget coin={params.id}/>
-            <CoinStatsCalculatorWidget />
+    return (
+        <div className={styles.container}>
+            <div className={styles.containerContent}>
+                <TradingViewWidget coin={params.id} />
+                <CoinStatsCalculatorWidget />
+            </div>
         </div>
-    </div>
+    )
 }
 

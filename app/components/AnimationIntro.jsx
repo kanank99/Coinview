@@ -8,7 +8,7 @@ import useCoins from './CoinData'
 async function AnimationIntro() {
 
   const coins = await useCoins()
-  
+
   let btcChange;
   let btcColor;
   let ethChange;
@@ -78,7 +78,7 @@ async function AnimationIntro() {
   bnbColor = bnbChange > 0 ? styles.green : styles.red
   dogeChange = coins.find(coin => coin.symbol === 'doge').price_change_percentage_24h.toFixed(2)
   dogeColor = dogeChange > 0 ? styles.green : styles.red
-  csprChange = coins.find(coin => coin.symbol === 'cspr').price_change_percentage_24h.toFixed(2)
+  csprChange = coins.find(coin => coin.symbol === 'rune').price_change_percentage_24h.toFixed(2)
   csprColor = csprChange > 0 ? styles.green : styles.red
   filChange = coins.find(coin => coin.symbol === 'fil').price_change_percentage_24h.toFixed(2)
   filColor = filChange > 0 ? styles.green : styles.red
@@ -110,8 +110,8 @@ async function AnimationIntro() {
 
 
   return (
-  <>
-    <div className={styles.introAnimationContainer}>
+    <>
+      <div className={styles.introAnimationContainer}>
         <div className={styles.row}>
           <div className={styles.rowWithItems1}>
             <div className={styles.itemBox}>
@@ -344,7 +344,7 @@ async function AnimationIntro() {
             </div>
           </div>
           <div className={styles.rowWithItems2}>
-          <div className={styles.itemBox}>
+            <div className={styles.itemBox}>
               <div className={styles.imgWithChange}>
                 <Image className={styles.coinImg} src="/coins1/ape.svg" alt="ape-icon" width={35} height={35} />
                 <p className={`${styles.coinPriceChangeText} ${apeColor}`}>{apeChange}%</p>
@@ -729,12 +729,12 @@ async function AnimationIntro() {
           </div>
         </div>
         <div className={styles.logoItemBox}>
-            <Image src="/coins/eye-logo.png" alt="eye-logo" width={50} height={50} priority />
-            <div className={styles.lightShadowDivLogo}></div>
+          <Image src="/coins/eye-logo.png" alt="eye-logo" width={50} height={50} priority />
+          <div className={styles.lightShadowDivLogo}></div>
         </div>
-        
+
       </div>
-  </>
+    </>
   )
 }
 
